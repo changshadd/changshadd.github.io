@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>地下偶像个人喜好表</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 80%;
+			margin: 0 auto;
+		}
+		th, td {
+			border: 2px solid black;
+			padding: 10px;
+			text-align: center;
+			font-size: 20px;
+		}
+		th {
+			font-size: 38px;
+			font-weight: bold;
+			background-color: #d9d9d9;
+		}
+		td input[type=text] {
+			height: 22px;
+			width: 100%;
+			text-align: center;
+			font-size: 18px;
+		}
+		.add-btn {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+		.generate-btn {
+			background-color: #008CBA;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th colspan="2">地下偶像个人喜好表</th>
+		</tr>
+		<tr>
+			<th>推的成员</th>
+			<th>推的团</th>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="member1" placeholder="">
+				<br>
+				<span class="add-btn" onclick="addOption(this)">添加</span>
+			</td>
+			<td>
+				<input type="text" name="group1" placeholder="">
+				<br>
+				<span class="add-btn" onclick="addOption(this)">添加</span>
+			</td>
+		</tr>
+		<tr>
+			<th>想去看一次的成员or团</th>
+			<th>想去拍切成员or团</th>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="visit1" placeholder="">
+				<br>
+				<span class="add-btn" onclick="addOption(this)">添加</span>
+			</td>
+			<td>
+				<input type="text" name="shoot1" placeholder="">
+				<br>
+				<span class="add-btn" onclick="addOption(this)">添加</span>
+			</td>
+		</tr>
+		<tr>
+			<th>live最强的成员or团</th>
+			<th>最会营业的成员or团</th>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="live1" placeholder="">
+				<br>
+				<span class="add-btn" onclick="addOption(this)">添加</span>
+			</td>
+			<td>
+				<input type="text" name="business1" placeholder="">
+				<br>
+				<span class="add-btn" onclick="addOption(this)">添加</span>
+		</tr>
+		<tr>
+			<td colspan="2">制作@MageTong</td>
+		</tr>
+	</table>
+	<br>
+	<button class="generate-btn" onclick="generateImage()">生成图片</button>
+	<script>
+		function addOption(element) {
+			var input = document.createElement("input");
+			input.type = "text";
+			input.name = element.parentNode.firstChild.name;
+			input.style.display = "block";
+			input.style.marginTop = "10px";
+			input.style.marginBottom = "10px";
+			input.style.fontSize = "18px";
+			input.style.textAlign = "center";
+			element.parentNode.insertBefore(input, element);
+		}
+
+		function generateImage() {
+			var table = document.getElementsByTagName('table')[0];
+			html2canvas(table).then(function(canvas) {
+				var link = document.createElement('a');
+				link.download = '地下偶像喜好表.jpg';
+				link.href = canvas.toDataURL('image/jpeg');
+				link.click();
+			});
+		}
+	</script>
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</body>
+</html>
