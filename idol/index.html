@@ -6,35 +6,48 @@
 		table {
 			border-collapse: collapse;
 			width: 80%;
+			text-align: center;
 			margin: 0 auto;
 		}
 		th, td {
 			border: 2px solid black;
 			padding: 10px;
 			text-align: center;
-			font-size: 20px;
+			font-size: 28px;
 		}
 		th {
-			font-size: 38px;
+			text-align: center;
+			font-size: 34px;
 			font-weight: bold;
 			background-color: #d9d9d9;
 		}
 		td input[type=text] {
-			height: 22px;
-			width: 100%;
+			height: 50px;
+			width: 80%;
 			text-align: center;
-			font-size: 18px;
+			font-size: 28px;
+			margin: 0 auto;
+		}
+		input[type="checkbox"] {
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			display: inline-block;
+			text-align: center;
+			vertical-align: middle;
+			position: relative;
+			box-sizing: content-box;
 		}
 		.add-btn {
 			background-color: #4CAF50;
 			border: none;
 			color: white;
-			padding: 10px 20px;
+			padding: 4px 10px;
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
+			font-size: 12px;
+			margin: 6px 2px;
 			cursor: pointer;
 			border-radius: 5px;
 		}
@@ -46,7 +59,7 @@
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
-			font-size: 16px;
+			font-size: 20px;
 			margin: 4px 2px;
 			cursor: pointer;
 			border-radius: 5px;
@@ -64,30 +77,30 @@
 		</tr>
 		<tr>
 			<td>
-				<input type="text" name="member1" placeholder="">
+				<input type="text" name="member1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">添加</span>
+				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
 			</td>
 			<td>
-				<input type="text" name="group1" placeholder="">
+				<input type="text" name="group1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">添加</span>
+				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
 			</td>
 		</tr>
 		<tr>
 			<th>想去看一次的成员or团</th>
-			<th>想去拍切成员or团</th>
+			<th>想去拍切的成员or团</th>
 		</tr>
 		<tr>
 			<td>
-				<input type="text" name="visit1" placeholder="">
+				<input type="text" name="visit1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">添加</span>
+				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
 			</td>
 			<td>
-				<input type="text" name="shoot1" placeholder="">
+				<input type="text" name="shoot1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">添加</span>
+				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
 			</td>
 		</tr>
 		<tr>
@@ -96,30 +109,52 @@
 		</tr>
 		<tr>
 			<td>
-				<input type="text" name="live1" placeholder="">
+				<input type="text" name="live1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">添加</span>
+				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
 			</td>
 			<td>
-				<input type="text" name="business1" placeholder="">
+				<input type="text" name="business1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">添加</span>
+				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
+		</tr>
+			<th colspan="2">我是？</th>
+		<tr>
+			<td colspan="2">
+				<input type="checkbox">live猴子
+				<input type="checkbox">特典会老头
+				<input type="checkbox">士大夫
+				<input type="checkbox">现役
+			</td>
 		</tr>
 		<tr>
-			<td colspan="2">制作@MageTong</td>
+			<th colspan="2">完成过的壮举</th>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="checkbox">优胜
+				<input type="checkbox">关门
+				<input type="checkbox">极限往返
+				<input type="checkbox">微博中奖
+			</td>
+		</tr>
+		<tr>
+			<th colspan="2" font-size: 20px;>制作@MageTong  地址:csdd.top/idol</th>
 		</tr>
 	</table>
 	<br>
+	<center>
 	<button class="generate-btn" onclick="generateImage()">生成图片</button>
+	</center>
 	<script>
 		function addOption(element) {
 			var input = document.createElement("input");
 			input.type = "text";
 			input.name = element.parentNode.firstChild.name;
 			input.style.display = "block";
-			input.style.marginTop = "10px";
-			input.style.marginBottom = "10px";
-			input.style.fontSize = "18px";
+			input.style.marginTop = "12px";
+			input.style.marginBottom = "12px";
+			input.style.fontSize = "28px";
 			input.style.textAlign = "center";
 			element.parentNode.insertBefore(input, element);
 		}
