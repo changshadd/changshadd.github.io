@@ -174,20 +174,6 @@
   </url>
   
   <url>
-    <loc>https://www.csdd.top/tags/%E7%87%83%E7%83%A7%E4%BD%A0%E7%9A%84%E6%A2%A6/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.csdd.top/tags/%E4%BE%9D%E7%84%B6%E6%B4%B3%E9%9B%AA/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.csdd.top/tags/%E5%BD%A9%E8%99%B96%E5%8F%B7/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -202,7 +188,14 @@
   </url>
   
   <url>
-    <loc>https://www.csdd.top/tags/%E8%99%B9%E5%B0%8F%E5%AD%90/</loc>
+    <loc>https://www.csdd.top/tags/%E7%87%83%E7%83%A7%E4%BD%A0%E7%9A%84%E6%A2%A6/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.csdd.top/tags/%E4%BE%9D%E7%84%B6%E6%B4%B3%E9%9B%AA/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -217,6 +210,13 @@
   
   <url>
     <loc>https://www.csdd.top/tags/cosplay/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.csdd.top/tags/%E8%99%B9%E5%B0%8F%E5%AD%90/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
