@@ -5,34 +5,34 @@
 	<style>
 		table {
 			border-collapse: collapse;
-			width: 80%;
+			width: 60%;
 			text-align: center;
 			margin: 0 auto;
 		}
 		th, td {
-			border: 2px solid black;
-			padding: 10px;
+			border: 1.5px solid black;
+			padding: 8px;
 			text-align: center;
-			font-size: 28px;
+			font-size: 20px;
 		}
 		th {
 			text-align: center;
-			font-size: 34px;
+			font-size: 24px;
 			font-weight: bold;
 			background-color: #d9d9d9;
 		}
 		td input[type=text] {
-			height: 50px;
+			height: 32px;
 			width: 80%;
-			text-align: center;
-			font-size: 28px;
 			font-weight: bold;
-			margin: 0 auto;
+			text-align: center;
+			font-size: 22px;
+			margin: auto;
 		}
 		input[type="checkbox"] {
-			width: 25px;
-			height: 25px;
-			line-height: 25px;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
 			display: inline-block;
 			text-align: center;
 			vertical-align: middle;
@@ -80,12 +80,12 @@
 			<td>
 				<input type="text" name="member1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
+				<span class="add-btn" onclick="addOption(this)" data-html2canvas-ignore="true">我不是单推</span>
 			</td>
 			<td>
 				<input type="text" name="group1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
+				<span class="add-btn" onclick="addOption(this)" data-html2canvas-ignore="true">我不是单推</span>
 			</td>
 		</tr>
 		<tr>
@@ -96,12 +96,12 @@
 			<td>
 				<input type="text" name="visit1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
+				<span class="add-btn" onclick="addOption(this)"  data-html2canvas-ignore="true">我不是单推</span>
 			</td>
 			<td>
 				<input type="text" name="shoot1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
+				<span class="add-btn" onclick="addOption(this)" data-html2canvas-ignore="true">我不是单推</span>
 			</td>
 		</tr>
 		<tr>
@@ -112,12 +112,12 @@
 			<td>
 				<input type="text" name="live1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
+				<span class="add-btn" onclick="addOption(this)" data-html2canvas-ignore="true">我不是单推</span>
 			</td>
 			<td>
 				<input type="text" name="business1" placeholder="点击<我不是单推>即可添加更多">
 				<br>
-				<span class="add-btn" onclick="addOption(this)">我不是单推</span>
+				<span class="add-btn" onclick="addOption(this)" data-html2canvas-ignore="true">我不是单推</span>
 		</tr>
 			<th colspan="2">我是？</th>
 		<tr>
@@ -153,9 +153,9 @@
 			input.type = "text";
 			input.name = element.parentNode.firstChild.name;
 			input.style.display = "block";
-			input.style.marginTop = "12px";
-			input.style.marginBottom = "12px";
-			input.style.fontSize = "28px";
+			input.style.marginTop = "10px";
+			input.style.marginBottom = "10px";
+			input.style.fontSize = "22px";
 			input.style.textAlign = "center";
 			element.parentNode.insertBefore(input, element);
 		}
@@ -170,6 +170,6 @@
 			});
 		}
 	</script>
-	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 </body>
 </html>
