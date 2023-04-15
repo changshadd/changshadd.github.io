@@ -146,13 +146,6 @@
 
   
   <url>
-    <loc>https://www.csdd.top/tags/%E5%A3%B0%E4%BC%98/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.csdd.top/tags/%E7%BA%BF%E4%B8%8B%E6%B4%BB%E5%8A%A8/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -161,6 +154,13 @@
   
   <url>
     <loc>https://www.csdd.top/tags/%E8%A7%82%E5%BD%B1%E4%BC%9A/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.csdd.top/tags/%E5%A3%B0%E4%BC%98/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -188,20 +188,6 @@
   </url>
   
   <url>
-    <loc>https://www.csdd.top/tags/%E7%87%83%E7%83%A7%E4%BD%A0%E7%9A%84%E6%A2%A6/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.csdd.top/tags/%E4%BE%9D%E7%84%B6%E6%B4%B3%E9%9B%AA/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.csdd.top/tags/%E4%BA%8C%E6%AC%A1%E5%85%83%E5%AD%98%E6%A1%A3/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -217,6 +203,20 @@
   
   <url>
     <loc>https://www.csdd.top/tags/%E8%99%B9%E5%B0%8F%E5%AD%90/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.csdd.top/tags/%E7%87%83%E7%83%A7%E4%BD%A0%E7%9A%84%E6%A2%A6/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.csdd.top/tags/%E4%BE%9D%E7%84%B6%E6%B4%B3%E9%9B%AA/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
